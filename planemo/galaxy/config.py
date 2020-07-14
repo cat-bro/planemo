@@ -182,7 +182,7 @@ format = %(asctime)s %(levelname)-5.5s [%(name)s] %(message)s
 
 EMPTY_TOOL_CONF_TEMPLATE = """<toolbox></toolbox>"""
 
-DEFAULT_GALAXY_BRANCH = "master"
+DEFAULT_GALAXY_BRANCH = "release_20.01"
 DEFAULT_GALAXY_SOURCE = "https://github.com/galaxyproject/galaxy"
 CWL_GALAXY_SOURCE = "https://github.com/common-workflow-language/galaxy"
 
