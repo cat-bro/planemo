@@ -47,6 +47,9 @@ def user_api_key(admin_gi):
     """Use an admin authenticated account to generate a user API key."""
     # TODO: thread-safe
     users = admin_gi.users
+    print('---------------------------')
+    print(users)
+    print('---------------------------')
     all_users = users.get_users()
 
     user_id = None

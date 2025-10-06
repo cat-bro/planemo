@@ -88,6 +88,7 @@ class UsesServeCommand:
 
     @property
     def _user_gi(self):
+        print('****************************************')
         admin_gi = api.gi(self._port)
         user_api_key = api.user_api_key(admin_gi)
         user_gi = api.gi(self._port, key=user_api_key)
