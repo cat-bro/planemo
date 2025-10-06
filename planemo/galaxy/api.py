@@ -50,6 +50,9 @@ def user_api_key(admin_gi):
     print('---------------------------')
     print(users)
     print('---------------------------')
+    all_tools = admin_gi.tools.get_tools()
+    print(all_tools)
+    print('checking whether any api calls work here')
     all_users = users.get_users()
 
     user_id = None
