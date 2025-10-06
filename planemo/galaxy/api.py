@@ -51,6 +51,7 @@ def user_api_key(admin_gi):
     print(users)
     print(admin_gi.url)
     print(admin_gi.key)
+    import ipdb; ipdb.set_trace()
     print('---------------------------')
     all_tools = admin_gi.tools.get_tools()
     print(all_tools)
