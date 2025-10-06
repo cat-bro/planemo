@@ -49,6 +49,8 @@ def user_api_key(admin_gi):
     users = admin_gi.users
     print('---------------------------')
     print(users)
+    print(admin_gi.url)
+    print(admin_gi.key)
     print('---------------------------')
     all_tools = admin_gi.tools.get_tools()
     print(all_tools)
