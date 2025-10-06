@@ -772,6 +772,7 @@ class BaseGalaxyConfig(GalaxyInterface):
 
     @property
     def user_gi(self):
+        print("###################################")
         user_api_key = self.user_api_key
         assert user_api_key
         return self._gi_for_key(user_api_key)
